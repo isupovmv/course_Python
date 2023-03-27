@@ -1,4 +1,4 @@
-'''#2
+#2
 
 n = input("Введите число: ")
 s = 0
@@ -24,5 +24,13 @@ if s1 == s2:
     print("Y")
 else:
     print("N")
-'''
-#8
+
+#8 
+n = int(input("Введите число N: "))
+m = int(input("Введите число M: "))
+k = int(input("Введите число K: "))
+
+if k < n*m and (k % n == 0 or k % m == 0):
+    print("Y")
+else:
+    print("N")
