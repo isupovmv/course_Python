@@ -1,6 +1,6 @@
 import random
 #16
-'''
+
 n = int(input("Введите число N: "))
 l = []
 for i in range(n):
@@ -19,7 +19,7 @@ print(k)
 #способ 2
 l1 = [i for i in l if i == x]
 print(len(l1))
-'''
+
 #18
 n = int(input("Введите число N: "))
 l = []
